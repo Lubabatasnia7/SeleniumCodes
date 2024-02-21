@@ -1,4 +1,4 @@
-package seleniumerp.testng;
+package seleniumtasks.testng;
 
 import io.github.bonigarcia.wdm.WebDriverManager;
 import org.openqa.selenium.By;
