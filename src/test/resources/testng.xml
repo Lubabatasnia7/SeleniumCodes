@@ -1,0 +1,28 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<!DOCTYPE suite SYSTEM "http://testng.org/testng-1.0.dtd">
+<suite name="All Test Suite">
+    <test verbose="2" preserve-order="true" name="E:/Java Course 2/SeleniumCodes">
+        <classes>
+            <class name="seleniumtasks.testng.ClassAnnotationCodes">
+                <methods>
+                    <include name="loginIsSuccessful"/>
+                    <include name="checkFirstProductHeading"/>
+                    <include name="getTitle"/>
+                </methods>
+            </class>
+            <class name="seleniumtasks.testng.MethodAnnotationCodes">
+                <methods>
+                    <include name="loginIsSuccessful"/>
+                    <include name="checkFirstProductHeading"/>
+                    <include name="getTitle"/>
+                </methods>
+            </class>
+            <class name="seleniumtasks.testng.TestCases">
+                <methods>
+                    <include name="loginIsSuccessful"/>
+                    <include name="checkFirstProductHeading"/>
+                </methods>
+            </class>
+        </classes>
+    </test>
+</suite>
